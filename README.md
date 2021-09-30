@@ -6,7 +6,7 @@
 # Abstract
 Events are phenomena that occur at a specific time and place. Its detection can bring benefits to society since it is possible to extract knowledge from these events. Event detection is a multimodal task since these events have textual, geographical, and temporal components. Most multimodal research in the literature uses the concatenation of the components to represent the events. These approaches use multi-class or binary learning to detect events of interest which intensifies the user's labeling effort, where the user should label event classes even if there is no interest in detecting them. In this paper, we present the Triple-VAE approach that learn a unified representation from textual, spatial, and density modalities through a variational autoencoder, which is one of the state-of-the-art in representation learning. Our proposed Triple-VAE obtains suitable event representations for one-class classification, where users provide labels only for events of interest, thereby reducing the labeling effort. We carried out an experimental evaluation with ten real-world event datasets, four multimodal representation methods, and five evaluation metrics. Triple-VAE outperforms and presents a statistically significant difference considering the other three representation methods in all datasets. Therefore, Triple-VAE proved to be promising to represent the events in the one-class event detection scenario.
 
-# TripleVAE
+# Proposal: TripleVAE + One-Class Learning
 ![Proposal](/images/TVAE.png)
 
 # Results
