@@ -13,7 +13,7 @@ Events are phenomena that occur at a specific time and place. Its detection can 
 ![Results](/images/results.png)
 
 # Critical Diference
-![Results](/images/nemeny.png)
+![Results](/images/nemenyi.png)
 
 
 
